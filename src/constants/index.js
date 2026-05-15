@@ -36,6 +36,11 @@ import {
   yourlogo,
 } from "../assets";
 
+
+export const actionLink = 'https://ai-chat-app-by-ariq.vercel.app'
+
+
+
 export const navigation = [
   {
     id: "0",
