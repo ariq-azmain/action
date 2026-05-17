@@ -37,7 +37,7 @@ import {
 } from "../assets";
 
 
-export const actionLink = 'https://ai-chat-app-by-ariq.vercel.app'
+export const actionLink = 'https://action-ai-chat.vercel.app/'
 
 
 
