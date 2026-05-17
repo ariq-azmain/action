@@ -1,5 +1,6 @@
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
+import { actionLink } from '../constants'
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
@@ -8,7 +9,7 @@ const Pricing = () => {
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
-        <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
+        <div className="relative flex justify-center mb-[6.5rem]">
           <img
             src={smallSphere}
             className="relative z-1"
@@ -41,7 +42,7 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href={actionLink}
           >
             See the full details
           </a>

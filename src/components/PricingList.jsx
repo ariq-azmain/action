@@ -1,5 +1,5 @@
 import { check } from "../assets";
-import { pricing } from "../constants";
+import { pricing, actionLink } from "../constants";
 import Button from "./Button";
 
 const PricingList = () => {
@@ -29,7 +29,7 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.price ? actionLink : "mailto:ariqazmain12@gmail.com"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}

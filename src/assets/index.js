@@ -18,7 +18,7 @@ import recording01 from "./recording-01.svg";
 import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
-import loading from "./loading.png";
+import loading from "./loading.svg";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";

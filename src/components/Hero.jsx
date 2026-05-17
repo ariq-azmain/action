@@ -2,7 +2,7 @@ import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
+import { heroIcons, actionLink } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            &nbsp;Take&nbsp;Action with {` `}
+            &nbsp;Take&nbsp; Your Action with {` `}
             <span className="inline-block relative">
               Action AI{" "}
               <img
@@ -39,7 +39,7 @@ const Hero = () => {
             Chat naturally, then watch the AI send your emails, update your
             spreadsheets, and search the web — all using your own Google account.
           </p>
-          <Button href="/sign-up" white>
+          <Button href={actionLink} white>
             Get started for free
           </Button>
         </div>

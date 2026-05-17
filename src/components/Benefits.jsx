@@ -14,7 +14,7 @@ const Benefits = () => {
           title="Chat Smarter, Not Harder with Action"
         />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap gap-10 mb-10 justify-center">
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -46,7 +46,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-[0.4]">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
